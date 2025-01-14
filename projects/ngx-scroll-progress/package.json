@@ -1,0 +1,31 @@
+{
+  "name": "@christophhu/ngx-scroll-progress",
+  "version": "19.0.0",
+  "description": "Angular library to show a scroll progress bar.",
+  "license": "MIT",
+  "author": {
+    "name": "Christoph Huschenhoefer",
+    "email": "christoph@nxt.codes"
+  },
+  "keywords": [
+    "angular",
+    "scroll",
+    "progress"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristophHu/ngx-scroll-progress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristophHu/ngx-scroll-progress/issues"
+  },
+  "homepage": "https://github.com/ChristophHu/ngx-scroll-progress#readme",
+  "sideEffects": false
+}
