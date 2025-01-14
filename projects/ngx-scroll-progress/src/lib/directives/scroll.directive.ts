@@ -25,7 +25,6 @@ export class ScrollDirective {
    * @param event
    */
   @HostListener('scroll', ['$event']) onScroll(event: Event) {
-    console.log('event: ', event)
     this.scrollTop = (event.target as HTMLElement).scrollTop
     this.scrollHeight = (event.target as HTMLElement).scrollHeight - (event.target as HTMLElement).clientHeight
     this.scrolled = (this.scrollTop / this.scrollHeight) * 100
